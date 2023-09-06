@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cmath>
-
-
+using namespcae std;
 
 class Complex
 {
@@ -52,9 +51,9 @@ Complex operator-(const Complex c1, const Complex c2);
 
 ostream &operator<<(ostream&outs,const Complex &B)
 {
-if(B.imag>0)
-    outs<<"("<<B.real<<","<<B.imag<<"i)"<<"\n";
+if(B.Im>0)
+    outs<<"("<<B.Re<<","<<B.Im<<"i)"<<"\n";
     else
-         outs<<"("<<B.real<<","<<B.imag<<"i)"<<"\n";
+         outs<<"("<<B.Re<<","<<B.Im<<"i)"<<"\n";
 }
 

@@ -5,6 +5,8 @@
 #include "ComplexNum.h"
 #include <iostream>
 #include <cmath>
+using namespace std;
+
 int main( )
 {
     Complex c1(5.0,10.0);   	//5+10i
